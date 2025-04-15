@@ -1,11 +1,8 @@
-import { Button } from "@/components/ui/button"
+// src/App.tsx
+import Home from "@/pages/Home";
 
-function App() {
-  return (
-    <div className="flex flex-col items-center justify-center min-h-svh">
-      <Button>Click me</Button>
-    </div>
-  )
+function App(){
+  return <Home />;
 }
 
-export default App
+export default App;
