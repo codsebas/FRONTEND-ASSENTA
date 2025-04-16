@@ -13,6 +13,8 @@ interface EstadoBackend {
   data?: {
     nombre: string;
     puesto: string;
+    horaEntrada: string;
+    horaSalida: string;
     mensaje?: string;
   };
 }
